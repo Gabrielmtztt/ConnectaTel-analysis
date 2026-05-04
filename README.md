@@ -23,4 +23,27 @@ Segmentación ejecutiva: identificación de patrones de valor y riesgos de deser
 
 Insights estratégicos: traducción de hallazgos en recomendaciones accionables.
 
+**Cómo ejecutar este Notebook**
+Este análisis fue desarrollado en Python usando las bibliotecas pandas, seaborn y matplotlib.
+
+Opción A (Google Colab):
+
+Haga clic en este [enlace] (puede pegar aquí su link de Colab si lo tiene compartido).
+
+Seleccione "Ejecutar todo" para recrear los resultados.
+
+Opción B (Local):
+
+Clone este repositorio: git clone [URL-de-repo]
+
+Asegúrese de tener instalados los requerimientos: pip install pandas seaborn matplotlib
+
+Abra el archivo .ipynb en Jupyter Notebook o VS Code.
+
+ **Guía de Reproducción**
+Asegúrese de tener los archivos de datos en el mismo directorio que el notebook.
+
+El orden de ejecución es secuencial: comienza por la limpieza de datos antes de aplicar las funciones de segmentación.
+
+Si desea ajustar los umbrales de segmentación (por ejemplo, definir "Alto uso" de forma distinta), puede modificar los parámetros dentro de las funciones definidas en la etapa de ingeniería de características.
 
